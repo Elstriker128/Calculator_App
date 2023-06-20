@@ -20,7 +20,7 @@ namespace Calculator_App
     /// </summary>
     public partial class MainWindow : Window
     {
-        //private float Output = 0f;
+        private float Output = 0f;
         public MainWindow()
         {
             InitializeComponent();
@@ -31,11 +31,12 @@ namespace Calculator_App
         {
             CurrentOutput.Clear();
             CurrentOutput.Text = "0";
+            MemoryOutput.Content=string.Empty;
         }
 
         private void PRButton_Click(object sender, RoutedEventArgs e)
         {
-
+            MemoryOutput.Content= CurrentOutput.Text;
         }
 
         private void DivButton_Click(object sender, RoutedEventArgs e)
