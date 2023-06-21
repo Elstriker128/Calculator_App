@@ -45,7 +45,7 @@
         <Button Grid.Column="0" FontSize="30" Grid.Row="5" x:Name="OneButton" Margin="20"  Click="OneButton_Click" >1</Button>
         <Button Grid.Column="1" FontSize="30" Grid.Row="5" x:Name="TwoButton" Margin="20"  Click="TwoButton_Click" >2</Button>
         <Button Grid.Column="2" FontSize="30" Grid.Row="5" x:Name="ThreeButton" Margin="20"  Click="ThreeButton_Click" >3</Button>
-        <Button Grid.Column="3" FontSize="35" Grid.Row="5" x:Name="MultButton" Margin="20"  Click="MultButton_Click" >x</Button>
+        <Button Grid.Column="3" FontSize="45" Grid.Row="5" x:Name="MultButton" Margin="20"  Click="MultButton_Click" >x</Button>
 
         <Button Grid.Column="0" FontSize="30" Grid.Row="6" x:Name="PlusMinButton" Margin="20"  Click="PlusMinButton_Click" >+/-</Button>
         <Button Grid.Column="1" FontSize="30" Grid.Row="6" x:Name="PointButton" Margin="20"  Click="PointButton_Click" >.</Button>
