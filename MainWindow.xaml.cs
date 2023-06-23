@@ -30,6 +30,8 @@ namespace Calculator_App
         public MainWindow()
         {
             InitializeComponent();
+            //Make it so you can't type in the output box
+            CurrentOutput.IsReadOnly= true;
             //When you launch the program you see a zero in the textbox
             CurrentOutput.Text = "0";
         }
